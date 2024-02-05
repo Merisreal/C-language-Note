@@ -1,4 +1,3 @@
-# C-language-Note
 # Day 3:
 
 ## **Variables**
@@ -9,8 +8,7 @@ Biến là vị trí lưu trữ dữ liệu được đặt tên trong bộ nh�
 được lưu trữ ở đó
 
 ### Cách đặt tên biến:
-
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/a9269fc3-a768-4e73-a071-729d0f5919f2/561e3cff-5bc6-461b-993f-0ea3263ffdbf/Untitled.png)
+![Untitled](https://github.com/Merisreal/C-language-Note/assets/139641711/d7bc5874-16f5-46c1-92d8-ded725cfe6d9)
 
 Note:
 Lowercase letters → variable names (tên biến)
@@ -34,8 +32,8 @@ EX:
 
 - Intergers values (1,199,-9) sử dụng ít bộ nhớ hơn
 - Floating-point values (123,00000) sử dụng nhiều bộ nhớ hơn
+![2](https://github.com/Merisreal/C-language-Note/assets/139641711/643071b4-f03e-4bea-89db-2684d222615a)
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/a9269fc3-a768-4e73-a071-729d0f5919f2/ef3bc13b-63e6-4868-99bb-9ae115a34186/Untitled.png)
 
 ```c
 //See size of type
@@ -45,7 +43,7 @@ printf( “\nAn int is %d bytes”, sizeof( int ));
 
 ```
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/a9269fc3-a768-4e73-a071-729d0f5919f2/f6548c44-308e-4744-b7d8-b1cdfbaf79d3/Untitled.png)
+![12](https://github.com/Merisreal/C-language-Note/assets/139641711/e4ad2080-5da5-4c4f-883f-674b27be4e44)
 
 Note:
 
@@ -55,7 +53,7 @@ Note:
 - The size of an unsigned is equal to the size of an int.
 - The size of a float is less or equal to the size of a double
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/a9269fc3-a768-4e73-a071-729d0f5919f2/8ac26532-03c0-4dc0-b079-5a07176dad5d/Untitled.png)
+![1231](https://github.com/Merisreal/C-language-Note/assets/139641711/65910ebe-472e-4484-a215-c49ad762a794)
 
 ## **Variable Declaration (**Khai báo Biến)
 
@@ -353,7 +351,7 @@ Câu lệnh trước chỉ định nghĩa kiểu cấu trúc hình chữ nhật.
 struct rectangle mybox;
 ```
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/a9269fc3-a768-4e73-a071-729d0f5919f2/d61ff0de-f0c3-4744-afaf-a7f2313deaa4/Untitled.png)
+<img width="556" alt="ds" src="https://github.com/Merisreal/C-language-Note/assets/139641711/28dc77b5-6d29-4992-b901-2f7aec097518">
 
 ### **Structures That Contain Arrays**
 
@@ -366,8 +364,8 @@ char y[10];
 
 struct data record;
 ```
+<img width="512" alt="sad" src="https://github.com/Merisreal/C-language-Note/assets/139641711/dc5efb85-4759-4355-9007-bf4474c0bbe9">
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/a9269fc3-a768-4e73-a071-729d0f5919f2/6313ff33-6896-423d-aeaf-589b02c2541d/Untitled.png)
 
 **Arrays of Structures**
 
@@ -507,8 +505,8 @@ Tuy nhiên cần phải gắn địa chỉ cho biến
 first.value = &cost;
 first.rate = &interest;
 ```
+<img width="489" alt="sa" src="https://github.com/Merisreal/C-language-Note/assets/139641711/cb041001-2e73-485c-b4e9-cd8083d1e7e9">
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/a9269fc3-a768-4e73-a071-729d0f5919f2/aa778b3d-e9a8-4b2f-948c-e230d27a8a2f/Untitled.png)
 
 Lí do sử dụng pointer thay cho sử dụng array kiểu char ⇒ **Storing**
 
@@ -545,7 +543,7 @@ struct part gizmo;
 p_part = &gizmo
 ```
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/a9269fc3-a768-4e73-a071-729d0f5919f2/1da45c00-c438-431b-943b-df0d802bf509/Untitled.png)
+<img width="519" alt="dsa" src="https://github.com/Merisreal/C-language-Note/assets/139641711/8e2e2b22-436a-4cbb-91e6-e638cbcc7a0a">
 
 ```c
 (*p_part).number = 100;
@@ -568,7 +566,7 @@ Nhìn vào một ví dụ khác, nếu str là một cấu trúc, p_str là mộ
 p_str -> memb
 ```
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/a9269fc3-a768-4e73-a071-729d0f5919f2/770ed11a-6261-4025-a407-4fc405004470/Untitled.png)
+<img width="519" alt="dsad" src="https://github.com/Merisreal/C-language-Note/assets/139641711/80cec93e-c967-441f-a5bb-ebb7a285a6e6">
 
 ### **Pointers and Arrays of Structures**
 
@@ -627,7 +625,7 @@ void print_rec(struct data displayRec) {
 }
 ```
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/a9269fc3-a768-4e73-a071-729d0f5919f2/6336b45f-e78b-4331-a800-4007466c9830/Untitled.png)
+<img width="372" alt="ca" src="https://github.com/Merisreal/C-language-Note/assets/139641711/183a635c-c3d6-4c1e-8ca6-0db78a842951">
 
 # Day 9 & 15 Pointer - basic to medium
 
