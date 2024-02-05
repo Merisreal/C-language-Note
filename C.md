@@ -1,3 +1,6 @@
+
+https://stupendous-guppy-d8d.notion.site/C-Bbook-f0487e84d9c846039893d8950b76044c?pvs=73
+
 # Day 3:
 
 ## **Variables**
